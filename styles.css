@@ -76,6 +76,7 @@ body {
   font-family: 'Barlow Semi Condensed', sans-serif;
   background-color: light gray;
   display: flex;
+  height: 100%;
   align-items: center;
 }
 /*************CLASSES for main bits**************/
