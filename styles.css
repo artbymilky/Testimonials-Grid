@@ -1,3 +1,52 @@
+@media only screen and (max-width: 600px) {
+  .main-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .dan-john-jean-pat {
+    flex-direction: column;
+  }
+
+  .daniel-jonathan {
+    flex-direction: column;
+    }
+  .jeanette-patrick {
+    flex-direction: column;
+  }
+
+ body > .main-wrapper {
+  align-items: flex-start;
+  width: 100%;
+}
+.margin-for-boxes > .padding-box-quotes {
+  padding: 0;
+  width: 100%;
+}
+.main-wrapper >.kira-box {
+padding-bottom: 0.7rem;
+}
+.daniel-jonathan > .quote-mark {
+  background-image: url(images/quote-mark-01.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-position-y: -2.3rem;
+  background-position-x: 10rem;
+}
+.daniel-jonathan > div {
+  width: fit-content;
+  height: fit-content;
+}
+.jeanette-patrick > div {
+  width: fit-content;
+  height: fit-content;
+}
+.main-wrapper > .kira-box {
+  width: fit-content;
+  height: fit-content;
+}
+}
+
+
 /***********************MAIN ELEMENTS********************/
 
 div {
@@ -20,31 +69,22 @@ p {
   font-weight: 500;
 }
 html {
-    height: 100%;
+  height: 100%;
 }
 body {
   background-color: hsl(210, 46%, 95%);
   font-family: 'Barlow Semi Condensed', sans-serif;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
   background-color: light gray;
   display: flex;
+  align-items: center;
 }
 /*************CLASSES for main bits**************/
-/* body > div {
-  margin: auto;
-} */
 
 .daniel-jonathan {
   display: flex;
 }
 .jeanette-patrick {
   display: flex;
-}
-
-.orange-wrapper {
- 
 }
 
 .main-quote {
@@ -103,22 +143,19 @@ body {
 .outer-margin {
   margin: 0.8rem;
 }
-.kira-flex-box {
+.main-wrapper {
   display: flex;
+  margin: auto;
+  align-items: center;
 }
 .quote-mark {
-    background-image: url(images/quote-mark-01.png) ;
-    background-position: right;
-    background-size: 10rem;
-    background-repeat: no-repeat;
-    background-position-y: -2rem;
-    background-position-x: 22rem;
+  background-image: url(images/quote-mark-01.png);
+  background-position: right;
+  background-size: 10rem;
+  background-repeat: no-repeat;
+  background-position-y: -2rem;
+  background-position-x: 22rem;
 }
-    .picture {
-       height: 2rem;
-       width: 2rem;
-        
-
-    
-
-}
+.picture {
+  height: 2rem;
+  width: 2rem;}
